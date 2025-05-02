@@ -1,1 +1,23 @@
+<html>
+  <body>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
+			embeddedservice_bootstrap.init(
+				'00DdN00000LkFci',
+				'SDO_Messaging_for_Web',
+				'https://skhamankar-241021-395-demo.my.site.com/ESWSDOMessagingforWeb1729530210980',
+				{
+					scrt2URL: 'https://skhamankar-241021-395-demo.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://skhamankar-241021-395-demo.my.site.com/ESWSDOMessagingforWeb1729530210980/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</body>
+</html>
