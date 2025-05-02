@@ -10,7 +10,7 @@
 				'SDO_Messaging_for_Web',
 				'https://skhamankar-241021-395-demo.my.site.com/ESWSDOMessagingforWeb1729530210980',
 				{
-					scrt2URL: 'https://skhamankar-241021-395-demo.my.salesforce-scrt.com'
+					scrt2URL: 'https://url.us.m.mimecastprotect.com/s/ar_9CxkNq1sL8y9G2Cvh1fy9NHH?domain=skhamankar-241021-395-demo.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
